@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=3 uid="uid://pcfofysea0m2"]
+
+[ext_resource type="Texture2D" uid="uid://ck6bkdbmno20r" path="res://icon.svg" id="1_d48cj"]
+[ext_resource type="Script" path="res://addons/first_plugin/PluginButton.gd" id="2_2p3pb"]
+
+[node name="FirstPlugin" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="PluginButton" type="TextureButton" parent="."]
+layout_mode = 0
+offset_left = -362.0
+offset_right = -234.0
+offset_bottom = 128.0
+scale = Vector2(0.205134, 0.205134)
+texture_normal = ExtResource("1_d48cj")
+script = ExtResource("2_2p3pb")
